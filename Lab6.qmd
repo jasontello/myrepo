@@ -3,23 +3,15 @@ title: "Lab 6: Quarto Presentation"
 author: "jason tello"
 format: revealjs
 editor: visual
+bibliography: references.bib
 ---
 
-## Quarto
+### Some important literature
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+This reference contains information on a very interesting synthetic tool developed by a lab in UCSF. It's possible therapeutic uses are enormous. @roybal_engineering_2016
 
-## Bullets
+## A Cool Equation or Two
 
-When you click the **Render** button a document will be generated that includes:
+$$w_A(g) \equiv \prod_i^M \sum_j^M \Big( \frac{\exp(-q\epsilon d^H_{i,j})}{\sum_j \exp(-q\epsilon d^H_{i,j})} \Big) \phi^{d^A_{i,j}}$$
 
--   Content authored with markdown
--   Output from executable code
-
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
+## References
